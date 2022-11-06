@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+          PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app version="2.4">
+    <display-name>ServletP2 </display-name>
+    <description> Servlet de la practica 2 de la asignatura SINT curso 21/22 </description>
+    <servlet>
+        <servlet-name>Sint80P2</servlet-name>
+        <servlet-class>p2.Sint80P2</servlet-class>
+        <init-param>
+            <param-name>real</param-name>
+            <param-value>no</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sint80P2</servlet-name>
+        <url-pattern>/P2M</url-pattern>
+    </servlet-mapping>
+
+    <display-name>ServletP3 </display-name>
+    <description> Servlet de la practica 3 de la asignatura SINT curso 21/22 </description>
+    <servlet>
+        <servlet-name>Sint80P3</servlet-name>
+        <servlet-class>p3.Sint80P3</servlet-class>
+        <init-param>
+            <param-name>real</param-name>
+            <param-value>no</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sint80P3</servlet-name>
+        <url-pattern>/P3M</url-pattern>
+    </servlet-mapping>
+
+</web-app>
