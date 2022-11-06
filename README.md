@@ -1,6 +1,7 @@
 # Servicio de recomendación de peliculas
-Practica 2 de la asignatura Servicios de Internet del grado de Teleco (Uvigo). Consiste en un servicio web que permite obtener información de un conjunto de peliculas ordenados por año. 
+Practicas 2 y 3 de la asignatura Servicios de Internet del grado de Teleco (Uvigo). Consiste en un servicio web que permite obtener información de un conjunto de peliculas ordenados por año. 
 Gracias a este servicio, el usuario puede seleccionar un año y obtener información detallada de las películas que se estrenaron en dicha temporada.
+En la práctica 3 se ha adaptado el codigo desarrollado en la practica 2 a la arquitectura MVC (Modelo, Vista, Controlador).
 
 # Funcionamiento
 Se ha desarrollado un servlet para Apache Tomcat, donde se almacena la información en ficheros MML, un lneguaje derivado del XML definido en el archivo 'mml.xsd'. Una vez iniciado el servlet, la aplicación irá descubriendo recursivamente nuevos archivos mml, de los cuales obtendrá toda la información que mostrará en pantalla.
